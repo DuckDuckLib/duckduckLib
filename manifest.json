@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
-    "name": "DuckDuckGo Safe",
-    "description": "Search DuckDuckGo with strict safe search enabled and no visible option to disable it.",
+    "name": "DuckDuckLib",
+    "description": "Search DuckDuckGo with safe search turned OFF so you can judge what is offensive for yourself.",
     "version": "1.0.2",
-    "omnibox": {"keyword": "ddg"},
+    "omnibox": {"keyword": "ddl"},
     "icons": {
         "16": "icons/icon-16.png",
         "48": "icons/icon-48.png",
@@ -16,10 +16,10 @@
     },
     "chrome_settings_overrides": {
 	"search_provider": {
-	    "name": "DuckDuckGo Safe",
-	    "search_url": "https://safe.duckduckgo.com/?q={searchTerms}",
-	    "suggest_url": "https://safe.duckduckgo.com/ac/?q={searchTerms}&type=list",
-	    "favicon_url": "https://safe.duckduckgo.com/favicon.ico",
+	    "name": "DuckDuckLib",
+		"search_url": "https://duckduckgo.com/?q={searchTerms}&kl=wt-wt&kp=-2",
+		"suggest_url": "https://duckduckgo.com/ac/?q={searchTerms}&kl=wt-wt&type=list",
+	    "favicon_url": "https://duckduckgo.com/favicon.ico",
 	    "is_default": true,
 	    "encoding": "UTF-8"
 	}
