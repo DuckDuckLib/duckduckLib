@@ -41,7 +41,7 @@ also specifying no regional filters
 ```
 
 
-
+[original svg ddg logo](https://duckduckgo.com/assets/common/dax-logo.svg)
 
 
 
