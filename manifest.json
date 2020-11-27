@@ -5,9 +5,9 @@
     "version": "1.0.2",
     "omnibox": {"keyword": "ddl"},
     "icons": {
-        "16": "icons/icon-16.png",
-        "48": "icons/icon-48.png",
-        "128": "icons/icon-128.png"
+        "16": "icons/dax-logo-lib-16.png",
+        "48": "icons/dax-logo-lib-48.png",
+        "128": "icons/dax-logo-lib-128.png"
     },
     "browser_specific_settings": {
 	"gecko": {

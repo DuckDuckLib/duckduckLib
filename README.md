@@ -1,53 +1,44 @@
 # DuckDuckLib
 
-A Firefox (and probably Chrome) extension that allows the user to search DuckDuckGo with safe search disabled and regional filters turned off. No other settings included. 
+A Firefox (and probably Chrome) extension that allows the user to search DuckDuckGo in a way which is identical to the usual DuckDuckGo search with two main exceptions:
 
-<!-- Check it out on [the Firefox Add-ons site](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-safe/). -->
+1. **"Safe search" is disabled.** This is the main point of the extension. There will be one less algorithm deciding for you what is appropriate viewing. 
 
-Based on [duckduckgo-safe](https://github.com/AdamVig/duckduckgo-safe) by AdamVig, which does the exact opposite.
+   Of course you may always use the [Safe Search page](https://safe.duckduckgo.com/) or change the settings on a per-search basis if for some reason you want this function. Read [about safe search](https://help.duckduckgo.com/duckduckgo-help-pages/features/safe-search/).
+
+2. **Region-specific results are disabled**. Can be enabled on a per-search basis. Read [about regional search](https://help.duckduckgo.com/duckduckgo-help-pages/settings/regions/).
+
+You do not need this extension to accomplish either of these goals. It is merely a convenience. 
 
 ## useage notes
 
-the omnibox search iss `ddl` so you can have regular duckduckgo installed concurrently. 
+### Icon
 
-info re omnibox for [developers](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/omnibox)
+The **icon** used in the search bar is *slightly* different, so they it may be visually distinguished from the original. 
 
-## creation notes
+Original DuckDuckGo icon
 
-ddg's [URL Parameter Reference Page](https://duckduckgo.com/params)
+![original DuckDuckGo](icons/icon-16.png)
 
-```
-safe ON:	https://duckduckgo.com/?kp=1 
-Safe Search: 	kp = 1 for On; kp = -1 for Moderate; kp = -2 for Off. 
+DuckDuckLib icon
 
-safe:	https://duckduckgo.com/?q=TERM&t=h_&ia=web
-unsafe:	https://duckduckgo.com/?q=TERM&kp=-2&t=h_&ia=web
+![dax-logo-lib-16](/Volumes/Five-Counter/CouldBeThis/duckducklib/icons/ddl-icon-16.png)
 
-https://duckduckgo.com/?kl=wt-wt&kp=-2
-https://duckduckgo.com/?q=TERM&kl=wt-wt&kp=-2
+### omnibox search
 
-```
+the omnibox search is `ddl` so you can have regular duckduckgo (`ddg`) installed concurrently without interfering with it's behaviour. 
 
-only specifying safe search off:
-```json
-"search_url": "https://duckduckgo.com/?q={searchTerms}&kp=-2",
-"suggest_url": "https://duckduckgo.com/ac/?q={searchTerms}&type=list",
-```
+### Privacy
 
-also specifying no regional filters
-```json
-"search_url": "https://duckduckgo.com/?q={searchTerms}&kl=wt-wt&kp=-2",
-"suggest_url": "https://duckduckgo.com/ac/?q={searchTerms}&kl=wt-wt&type=list",
-```
+This extension merely formats your request from the location/search box to include the parameters described above DuckDuckGo. The information does not go anywhere else, or do anything other than it otherwise would. 
 
+Please review DuckDuckGo's privacy policy: https://duckduckgo.com/privacy
 
-[original svg ddg logo](https://duckduckgo.com/assets/common/dax-logo.svg)
+## sources
 
+This extension is based on [duckduckgo-safe](https://github.com/AdamVig/duckduckgo-safe) by AdamVig, which does the exact opposite.
 
-
-
-
-
+DuckDuckGo logo/icon obtained from [their website](https://duckduckgo.com/assets/common/dax-logo.svg)
 
 
 
