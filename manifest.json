@@ -1,8 +1,16 @@
 {
     "manifest_version": 2,
     "name": "DuckDuckLib",
+	"short_name": "DuckDuckLib",
     "description": "Search DuckDuckGo with safe search turned OFF so you can judge what is offensive for yourself.",
-    "version": "1.0.2",
+    "version": "0.1",
+	"version_name": "0.1 beta",
+	"homepage_url": "https://github.com/CouldBeThis/duckducklib",
+	"developer": {
+	  "name": "CouldBeThis",
+	  "url": "https://github.com/CouldBeThis"
+	},
+	
     "omnibox": {"keyword": "ddl"},
     "icons": {
         "16": "icons/dax-logo-lib-16.png",

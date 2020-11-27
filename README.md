@@ -1,6 +1,6 @@
 # DuckDuckLib
 
-A Firefox (and probably Chrome) extension that allows the user to search DuckDuckGo in a way which is identical to the usual DuckDuckGo search with two main exceptions:
+A Firefox extension that allows the user to search DuckDuckGo in a way which is identical to the usual DuckDuckGo search with two main exceptions:
 
 1. **"Safe search" is disabled.** This is the main point of the extension. There will be one less algorithm deciding for you what is appropriate viewing. 
 
@@ -28,19 +28,31 @@ DuckDuckLib icon
 
 the omnibox search is `ddl` so you can have regular duckduckgo (`ddg`) installed concurrently without interfering with it's behaviour. 
 
-### Privacy
+## Privacy
 
 This extension merely formats your request from the location/search box to include the parameters described above DuckDuckGo. The information does not go anywhere else, or do anything other than it otherwise would. 
 
 Please review DuckDuckGo's privacy policy: https://duckduckgo.com/privacy
 
-## sources
+## to do
 
-This extension is based on [duckduckgo-safe](https://github.com/AdamVig/duckduckgo-safe) by AdamVig, which does the exact opposite.
+- [ ] investigate [`incognito` key in manifest.json](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/incognito) - should this be enabled?
+
+## sources & history
+
+This extension is based on duckduckgo-safe by AdamVig, which does the exact opposite
+
+* install [firefox add-on from mozilla](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-safe/)
+* see source on the [github repo](https://github.com/AdamVig/duckduckgo-safe)
+
 
 DuckDuckGo logo/icon obtained from [their website](https://duckduckgo.com/assets/common/dax-logo.svg)
 
+## liscence
 
 
+![agplv3-with-text-162x68](/Volumes/Five-Counter/CouldBeThis/duckducklib/images/agplv3-with-text-162x68.png)
+
+[Read all about it.](https://www.gnu.org/licenses/agpl-3.0.en.html)
 
 
