@@ -14,6 +14,15 @@ A Firefox extension that allows the user to search DuckDuckGo in a way which is 
 
 You do not need this extension to accomplish either of these goals. It is merely a convenience. 
 
+①➋❶
+➊
+
+➋
+❷
+
+➡︎
+
+
 ## useage notes
 
 ### <!--Icon-->

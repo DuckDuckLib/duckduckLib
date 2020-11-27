@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>README</title></head>
+<body><h1>DuckDuckLib</h1>
+<div>[TOC]</div>
+<h2>introduction</h2>
+<p>A Firefox extension that allows the user to search DuckDuckGo in a way which is identical to the usual DuckDuckGo search with two main exceptions:</p>
+<ol start='' >
+<li><p><strong>&quot;Safe search&quot; is disabled.</strong> This is the main point of the extension. There will be one less algorithm deciding for you what is appropriate viewing. </p>
+<p>Of course you may always use the <a href='https://safe.duckduckgo.com/'>Safe Search page</a> or change the settings on a per-search basis if for some reason you want this function. Read <a href='https://help.duckduckgo.com/duckduckgo-help-pages/features/safe-search/'>about safe search</a>.</p>
+</li>
+<li><p><strong>Region-specific results are disabled</strong>. Can be enabled on a per-search basis. Read <a href='https://help.duckduckgo.com/duckduckgo-help-pages/settings/regions/'>about regional search</a>.</p>
+</li>
+
+</ol>
+<p>You do not need this extension to accomplish either of these goals. It is merely a convenience. </p>
+<h2>useage notes</h2>
+<h3><!--Icon--></h3>
+<p><!--The **icon** used in the search bar is *slightly* different, so they it may be visually distinguished from the original.--> </p>
+<!--Original DuckDuckGo icon-->
+<!--![original DuckDuckGo](icons/icon-16.png)-->
+<!--DuckDuckLib icon-->
+<!--![dax-logo-lib-16](/Volumes/Five-Counter/CouldBeThis/duckducklib/icons/ddl-icon-16.png)-->
+<h3>omnibox search</h3>
+<p>the omnibox search is <code>ddl</code> so you can have regular duckduckgo (<code>ddg</code>) installed concurrently without interfering with it&#39;s behaviour. </p>
+<h3>Privacy</h3>
+<p>This extension merely formats your request from the location/search box to include the parameters described above DuckDuckGo. The information does not go anywhere else, or do anything other than it otherwise would. </p>
+<p>Please review DuckDuckGo&#39;s privacy policy: <a href='https://duckduckgo.com/privacy' target='_blank' class='url'>https://duckduckgo.com/privacy</a></p>
+<h2>to do or consider</h2>
+<ul>
+<li><input type='checkbox' /><p>investigate <a href='https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/incognito'><code>incognito</code> key in <code>manifest.json</code></a> - should this be enabled?</p>
+</li>
+<li><input type='checkbox' /><p><a href='https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_settings_overrides'><code>chrome_settings_overrides</code></a> could change home page to match </p>
+</li>
+<li><input type='checkbox' /><p><a href='https://extensionworkshop.com/documentation/develop/porting-a-google-chrome-extension/'>Port a Google Chrome Extension</a></p>
+</li>
+<li><input type='checkbox' /><p><a href='https://www.mozilla.org/firefox/mobile/'>Firefox for Android</a></p>
+</li>
+<li><input type='checkbox' /><p>allow configuration via options</p>
+</li>
+<li><input type='checkbox' /><p>figure out how to add search &quot;shortcuts&quot; as indicated/configured in <a href='about:preferences#search'>about:preferences#search</a></p>
+<ul>
+<li><input type='checkbox' /><p><a href='https://support.mozilla.org/en-US/kb/assign-shortcuts-search-engines'>end user docs for this feature</a></p>
+</li>
+<li><input type='checkbox' /><p><a href='https://developer.mozilla.org/en-US/docs/Web/Manifest/shortcuts'>shortcuts</a></p>
+</li>
+<li><input type='checkbox' /><p><a href='https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/search/search'>search.search()</a></p>
+</li>
+<li><input type='checkbox' /><p><a href='https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/topSites/get'>topSites.get()</a></p>
+</li>
+<li><input type='checkbox' /><p>less likely pages: <a href='https://developer.mozilla.org/en-US/search?q=search+shortcuts'>&quot;search for <em>search shortcuts</em></a></p>
+</li>
+
+</ul>
+</li>
+<li><input type='checkbox' /><p>read:</p>
+<ul>
+<li><input type='checkbox' /><p><a href='https://extensionworkshop.com/documentation/develop/onboard-upboard-offboard-users/'>onboarding flow</a> </p>
+</li>
+<li><input type='checkbox' /><p><a href='https://extensionworkshop.com/documentation/develop/build-an-accessible-extension/'>build an accessible extension</a></p>
+</li>
+
+</ul>
+</li>
+
+</ul>
+<h2>sources &amp; history</h2>
+<p>This extension is based on duckduckgo-safe by AdamVig, which does the exact opposite. It is available:</p>
+<ul>
+<li>install <a href='https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-safe/'>firefox add-on from mozilla</a></li>
+<li>see source on the <a href='https://github.com/AdamVig/duckduckgo-safe'>github repo</a></li>
+
+</ul>
+<p>DuckDuckGo logo/icon obtained from <a href='https://duckduckgo.com/assets/common/dax-logo.svg'>their website</a></p>
+<h2>liscence</h2>
+<p><img src="/Volumes/Five-Counter/CouldBeThis/duckducklib/images/agplv3-with-text-162x68.png" referrerpolicy="no-referrer" alt="agplv3-with-text-162x68"></p>
+<p><a href='https://www.gnu.org/licenses/agpl-3.0.en.html'>Read all about it.</a></p>
+<p>&nbsp;</p>
+</body>
+</html>
