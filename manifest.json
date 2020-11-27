@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "DuckDuckLib",
 	"short_name": "DuckDuckLib",
-    "description": "Search DuckDuckGo with safe search turned OFF so you can judge what is offensive for yourself.",
+    "description": "Firefox search extension that turns \"safe search\" and regional filtering OFF by default so you can decide what you want to see. ",
     "version": "0.1",
 	"version_name": "0.1 beta",
 	"homepage_url": "https://github.com/CouldBeThis/duckducklib",
@@ -27,7 +27,7 @@
 	    "name": "DuckDuckLib",
 		"search_url": "https://duckduckgo.com/?q={searchTerms}&kl=wt-wt&kp=-2",
 		"suggest_url": "https://duckduckgo.com/ac/?q={searchTerms}&kl=wt-wt&type=list",
-	    "favicon_url": "https://duckduckgo.com/favicon.ico",
+	    "favicon_url": "icons/ddl-icon-16.png",
 	    "is_default": true,
 	    "encoding": "UTF-8"
 	}

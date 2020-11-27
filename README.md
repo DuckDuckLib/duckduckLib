@@ -45,6 +45,9 @@ Please review DuckDuckGo's privacy policy: https://duckduckgo.com/privacy
 - [ ] [Port a Google Chrome Extension](https://extensionworkshop.com/documentation/develop/porting-a-google-chrome-extension/)
 - [ ] [Firefox for Android](https://www.mozilla.org/firefox/mobile/)
 - [ ] allow configuration via options
+- [ ] read:
+  - [ ] [onboarding flow](https://extensionworkshop.com/documentation/develop/onboard-upboard-offboard-users/) 
+  - [ ] [build an accessible extension](https://extensionworkshop.com/documentation/develop/build-an-accessible-extension/)
 
 ## sources & history
 
