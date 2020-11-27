@@ -74,7 +74,7 @@ This extension is based on duckduckgo-safe by AdamVig, which does the exact oppo
 
 DuckDuckGo logo/icon obtained from [their website](https://duckduckgo.com/assets/common/dax-logo.svg)
 
-## liscence
+## licence 
 
 
 ![agplv3-with-text-162x68](/Volumes/Five-Counter/CouldBeThis/duckducklib/images/agplv3-with-text-162x68.png)
