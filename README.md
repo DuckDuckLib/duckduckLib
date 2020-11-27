@@ -45,6 +45,12 @@ Please review DuckDuckGo's privacy policy: https://duckduckgo.com/privacy
 - [ ] [Port a Google Chrome Extension](https://extensionworkshop.com/documentation/develop/porting-a-google-chrome-extension/)
 - [ ] [Firefox for Android](https://www.mozilla.org/firefox/mobile/)
 - [ ] allow configuration via options
+- [ ] figure out how to add search "shortcuts" as indicated/configured in [about:preferences#search](about:preferences#search)
+  - [ ] [end user docs for this feature](https://support.mozilla.org/en-US/kb/assign-shortcuts-search-engines)
+  - [ ] [shortcuts](https://developer.mozilla.org/en-US/docs/Web/Manifest/shortcuts)
+  - [ ] [search.search()](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/search/search)
+  - [ ] [topSites.get()](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/topSites/get)
+  - [ ] less likely pages: ["search for *search shortcuts*](https://developer.mozilla.org/en-US/search?q=search+shortcuts)
 - [ ] read:
   - [ ] [onboarding flow](https://extensionworkshop.com/documentation/develop/onboard-upboard-offboard-users/) 
   - [ ] [build an accessible extension](https://extensionworkshop.com/documentation/develop/build-an-accessible-extension/)
