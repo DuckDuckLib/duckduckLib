@@ -61,11 +61,11 @@ This extension is based on duckduckgo-safe by AdamVig, which does the exact oppo
 * install [firefox add-on from mozilla](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-safe/)
 * see source on the [github repo](https://github.com/AdamVig/duckduckgo-safe)
 
-
 DuckDuckGo logo/icon obtained from [their website](https://duckduckgo.com/assets/common/dax-logo.svg)
 
-## licence 
+[![This Repository uses a generated Social Preview from @pqt/social-preview](https://img.shields.io/badge/%E2%9C%93-Social%20Preview-blue)](https://github.com/pqt/social-preview)
 
+## licence 
 
 ![agplv3-with-text-162x68](/Volumes/Five-Counter/CouldBeThis/duckducklib/images/agplv3-with-text-162x68.png)
 

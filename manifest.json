@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "DuckDuckLib",
 	"short_name": "DuckDuckLib",
-    "description": "Firefox search extension that turns \"safe search\" and regional filtering OFF by default so you can decide what you want to see. ",
+    "description": "Firefox search extension that turns \"safe search\" and regional filtering OFF by default so you can decide what you want to see.",
     "version": "0.2",
 	"version_name": "0.2 beta",
 	"homepage_url": "https://github.com/CouldBeThis/duckducklib",
