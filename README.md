@@ -1,4 +1,4 @@
-# DuckDuckLib
+# DuckDuckLib readme.md
 
 [toc]
 
@@ -14,28 +14,25 @@ A Firefox extension that allows the user to search DuckDuckGo in a way which is 
 
 You do not need this extension to accomplish either of these goals. It is merely a convenience. 
 
-①➋❶
-➊
+## this is primarily for my own learning
 
-➋
-❷
+While I do truly *despise* enforced safe search, at the moment the purpose of this repo is to learn about git hub, software development process and such. 
 
-➡︎
+If (for some reason) you are nosing around in here and you see all the issue requests, documentation, planning and such for such a tiny amount of code, this is why. :)
+
+Please feel free to open an issue should you so desire. My capabilities to do anything are extremely limited. 
+
+
+
+## installation
+
+[tbd issue #1]
+
 
 
 ## useage notes
 
-### <!--Icon-->
 
-<!--The **icon** used in the search bar is *slightly* different, so they it may be visually distinguished from the original.--> 
-
-<!--Original DuckDuckGo icon-->
-
-<!--![original DuckDuckGo](icons/icon-16.png)-->
-
-<!--DuckDuckLib icon-->
-
-<!--![dax-logo-lib-16](/Volumes/Five-Counter/CouldBeThis/duckducklib/icons/ddl-icon-16.png)-->
 
 ### omnibox search
 
@@ -49,20 +46,13 @@ Please review DuckDuckGo's privacy policy: https://duckduckgo.com/privacy
 
 ## to do or consider
 
-- [ ] investigate [`incognito` key in `manifest.json`](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/incognito) - should this be enabled?
-- [ ] [`chrome_settings_overrides`](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_settings_overrides) could change home page to match 
-- [ ] [Port a Google Chrome Extension](https://extensionworkshop.com/documentation/develop/porting-a-google-chrome-extension/)
-- [ ] [Firefox for Android](https://www.mozilla.org/firefox/mobile/)
-- [ ] allow configuration via options
-- [ ] figure out how to add search "shortcuts" as indicated/configured in [about:preferences#search](about:preferences#search)
-  - [ ] [end user docs for this feature](https://support.mozilla.org/en-US/kb/assign-shortcuts-search-engines)
-  - [ ] [shortcuts](https://developer.mozilla.org/en-US/docs/Web/Manifest/shortcuts)
-  - [ ] [search.search()](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/search/search)
-  - [ ] [topSites.get()](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/topSites/get)
-  - [ ] less likely pages: ["search for *search shortcuts*](https://developer.mozilla.org/en-US/search?q=search+shortcuts)
-- [ ] read:
-  - [ ] [onboarding flow](https://extensionworkshop.com/documentation/develop/onboard-upboard-offboard-users/) 
-  - [ ] [build an accessible extension](https://extensionworkshop.com/documentation/develop/build-an-accessible-extension/)
+
+
+[🎛 options](https://github.com/CouldBeThis/duckduckLib/labels/%F0%9F%8E%9B%20options)
+
+
+
+
 
 ## sources & history
 
