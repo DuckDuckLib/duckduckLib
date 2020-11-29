@@ -2,6 +2,8 @@
 
 [toc]
 
+5:43pm
+
 ## introduction
 
 A Firefox extension that allows the user to search DuckDuckGo in a way which is identical to the usual DuckDuckGo search with two main exceptions:
