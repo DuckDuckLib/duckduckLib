@@ -1,3 +1,13 @@
 web-ext-artifacts/
 .DS_Store
 .DS_Store
+
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+.gitignore
+
